@@ -1,26 +1,26 @@
 
 
 <template>
-c
-  <img alt="Vue logo" src="./assets/logo.png">
- 
-  <router-view></router-view>
-  <LoginComponent/>
-  <SigninComponent/>
+
+
+  <router-view></router-view> <!-- This will display the matched component based on the route -->
+
+  <!-- <LoginComponent/>
+  <SigninComponent/> -->
 </template>
 
 <script>
 
-import LoginComponent from './components/loginComponent.vue';
-import SigninComponent from './components/signinComponent.vue';
+// import LoginComponent from './components/loginComponent.vue';
+// import SigninComponent from './components/signinComponent.vue';
 
 
 export default {
   name: 'App',
-  components: {
-    SigninComponent,
-    LoginComponent,
-  },
+  // components: {
+  //   SigninComponent,
+  //   LoginComponent,
+  // },
 };
 </script>
 

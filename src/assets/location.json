@@ -1,0 +1,310 @@
+{
+    "provinces": [
+      {
+        "name": "Koshi",
+        "districts": [
+          {
+            "name": "Bhojpur",
+            "localGovernments": [
+              "Bhojpur Municipality",
+              "Bhojpur Rural Municipality"
+            ]
+          },
+          {
+            "name": "Dhankuta",
+            "localGovernments": [
+              "Dhankuta Municipality",
+              "Dhankuta Rural Municipality"
+            ]
+          },
+          {
+            "name": "Ilam",
+            "localGovernments": [
+              "Ilam Municipality",
+              "Ilam Rural Municipality"
+            ]
+          },
+          {
+            "name": "Jhapa",
+            "localGovernments": [
+              "Bhadrapur Municipality",
+              "Jhapa Rural Municipality",
+              "Kankai Municipality"
+            ]
+          },
+          {
+            "name": "Kirant",
+            "localGovernments": [
+              "Khadbari Municipality",
+              "Phidim Municipality"
+            ]
+          },
+          {
+            "name": "Morang",
+            "localGovernments": [
+              "Biratnagar Metropolitan City",
+              "Morang Rural Municipality"
+            ]
+          },
+          {
+            "name": "Sunsari",
+            "localGovernments": [
+              "Inaruwa Municipality",
+              "Sunsari Rural Municipality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madesh",
+        "districts": [
+          {
+            "name": "Dhanusha",
+            "localGovernments": [
+              "Janakpur Metropolitan City",
+              "Dhanusha Rural Municipality"
+            ]
+          },
+          {
+            "name": "Madhesh",
+            "localGovernments": [
+              "Bardibas Municipality",
+              "Madhesh Rural Municipality"
+            ]
+          },
+          {
+            "name": "Mahottari",
+            "localGovernments": [
+              "Mahottari Municipality",
+              "Mahottari Rural Municipality"
+            ]
+          },
+          {
+            "name": "Sarlahi",
+            "localGovernments": [
+              "Sarlahi Municipality",
+              "Sarlahi Rural Municipality"
+            ]
+          },
+          {
+            "name": "Sindhuli",
+            "localGovernments": [
+              "Sindhuli Municipality",
+              "Sindhuli Rural Municipality"
+            ]
+          },
+          {
+            "name": "Siraha",
+            "localGovernments": [
+              "Siraha Municipality",
+              "Siraha Rural Municipality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bagmati",
+        "districts": [
+          {
+            "name": "Bhaktapur",
+            "localGovernments": [
+              "Bhaktapur Municipality",
+              "Suryabinayak Municipality"
+            ]
+          },
+          {
+            "name": "Dhadhing",
+            "localGovernments": [
+              "Dhadhing Municipality",
+              "Dhadhing Rural Municipality"
+            ]
+          },
+          {
+            "name": "Dolakha",
+            "localGovernments": [
+              "Charikot Municipality",
+              "Dolakha Rural Municipality"
+            ]
+          },
+          {
+            "name": "Kathmandu",
+            "localGovernments": [
+              "Kathmandu Metropolitan City",
+              "Kirtipur Municipality",
+              "Dashankali Municipality"
+            ]
+          },
+          {
+            "name": "Lalitpur",
+            "localGovernments": [
+              "Lalitpur Metropolitan City",
+              "Mahalaxmi Municipality"
+            ]
+          },
+          {
+            "name": "Makwanpur",
+            "localGovernments": [
+              "Hetauda Sub-Metropolitan City",
+              "Makwanpur Rural Municipality"
+            ]
+          },
+          {
+            "name": "Ramechhap",
+            "localGovernments": [
+              "Ramechhap Municipality",
+              "Ramechhap Rural Municipality"
+            ]
+          },
+          {
+            "name": "Sindhupalchowk",
+            "localGovernments": [
+              "Sindhupalchowk Municipality",
+              "Sindhupalchowk Rural Municipality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gandaki ",
+        "districts": [
+          {
+            "name": "Gorkha",
+            "localGovernments": [
+              "Gorkha Municipality",
+              "Gorkha Rural Municipality"
+            ]
+          },
+          {
+            "name": "Kaski",
+            "localGovernments": [
+              "Pokhara Metropolitan City",
+              "Kaski Rural Municipality"
+            ]
+          },
+          {
+            "name": "Lamjung",
+            "localGovernments": [
+              "Lamjung Municipality",
+              "Lamjung Rural Municipality"
+            ]
+          },
+          {
+            "name": "Manang",
+            "localGovernments": [
+              "Chame Municipality",
+              "Manang Rural Municipality"
+            ]
+          },
+          {
+            "name": "Mustang",
+            "localGovernments": [
+              "Jomsom Municipality",
+              "Mustang Rural Municipality"
+            ]
+          },
+          {
+            "name": "Tanahun",
+            "localGovernments": [
+              "Damauli Municipality",
+              "Tanahun Rural Municipality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lumbini",
+        "districts": [
+          {
+            "name": "Arghakhanchi",
+            "localGovernments": [
+              "Arghakhanchi Municipality",
+              "Arghakhanchi Rural Municipality"
+            ]
+          },
+          {
+            "name": "Banke",
+            "localGovernments": [
+              "Nepalgunj Sub-Metropolitan City",
+              "Banke Rural Municipality"
+            ]
+          },
+          {
+            "name": "Bardiya",
+            "localGovernments": [
+              "Bardiya National Park Municipality",
+              "Bardiya Rural Municipality"
+            ]
+          },
+          {
+            "name": "Kapilvastu",
+            "localGovernments": [
+              "Kapilvastu Municipality",
+              "Kapilvastu Rural Municipality"
+            ]
+          },
+          {
+            "name": "Nawalpur",
+            "localGovernments": [
+              "Nawalpur Municipality",
+              "Nawalpur Rural Municipality"
+            ]
+          },
+          {
+            "name": "Palpa",
+            "localGovernments": [
+              "Tansen Municipality",
+              "Palpa Rural Municipality"
+            ]
+          },
+          {
+            "name": "Rupandehi",
+            "localGovernments": [
+              "Bhairahawa Municipality",
+              "Rupandehi Rural Municipality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sudurpashchim",
+        "districts": [
+          {
+            "name": "Achham",
+            "localGovernments": [
+              "Achham Municipality",
+              "Achham Rural Municipality"
+            ]
+          },
+          {
+            "name": "Baitadi",
+            "localGovernments": [
+              "Baitadi Municipality",
+              "Baitadi Rural Municipality"
+            ]
+          },
+          {
+            "name": "Doti",
+            "localGovernments": [
+              "Doti Municipality",
+              "Doti Rural Municipality"
+            ]
+          },
+          {
+            "name": "Darchula",
+            "localGovernments": [
+              "Darchula Municipality",
+              "Darchula Rural Municipality"
+            ]
+          },
+          {
+            "name": "Kanchanpur",
+            "localGovernments": [
+              "Mahendranagar Municipality",
+              "Kanchanpur Rural Municipality"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

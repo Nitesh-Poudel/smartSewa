@@ -1,5 +1,5 @@
 <template>
-    <div class="login-container">
+    <div class="login-container form-container">
       <h2 class="login-header">Login</h2>
       
       <form @submit.prevent="submitLogin" class="login-form">
@@ -14,7 +14,7 @@
           />
         </div>
         
-        <div class="form-group">
+        <div class="form-group ">
           <label for="password">Password</label>
           <div class="password-wrapper">
             <input
@@ -33,7 +33,7 @@
         <button type="submit" class="submit-btn">Login</button>
       </form>
   
-      <p class="forgot-password">Forgot your password? <a href="#">Click here</a></p>
+      <p class="forgot-password">Forgot your password? <router-link to="/forget-password">Click here</router-link></p>
       <p><router-link to="/signin">Go to Sign Up</router-link></p> 
     </div>
   </template>
@@ -55,6 +55,8 @@ export default {
     togglePasswordVisibility() {
       this.showPassword = !this.showPassword;
     },
+
+    
     submitLogin() {
       console.log('Username:', this.username);
       console.log('Password:', this.password);
