@@ -1,5 +1,7 @@
 <template>
-    <div class="login-container form-container">
+    <div class="container w-100 h-100 border d-flex  align-itmes-center justify-content-center" style="height:100vh">
+      <div class="login-container border form-container auth-form">
+        <div class="p-3  fw-bold text-dark"><h3><u>Welcome To Smart Sewa</u></h3></div>
       <h2 class="login-header">Login</h2>
       
       <form @submit.prevent="submitLogin" class="login-form">
@@ -8,7 +10,7 @@
           <input
             type="text"
             id="username"
-            v-model="username"
+            v-model="form.username"
             placeholder="Enter your username"
             required
           />
@@ -20,7 +22,7 @@
             <input
               :type="showPassword ? 'text' : 'password'"
               id="password"
-              v-model="password"
+              v-model="form.password"
               placeholder="Enter your password"
               required
             />
@@ -36,6 +38,7 @@
       <p class="forgot-password">Forgot your password? <router-link to="/forget-password">Click here</router-link></p>
       <p><router-link to="/signin">Go to Sign Up</router-link></p> 
     </div>
+    </div>
   </template>
 
 
@@ -46,8 +49,11 @@ export default {
   name: 'LoginComponent',
     data() {
         return {
-          username: "",
-          password: "",
+          form:{
+            username: "",
+            password: "",
+          },
+          
           showPassword: false,
         };
     },
@@ -58,8 +64,8 @@ export default {
 
     
     submitLogin() {
-      console.log('Username:', this.username);
-      console.log('Password:', this.password);
+      console.log("Form data - ",this.form);
+     
       // You can handle login logic here
     }
   }
@@ -71,5 +77,5 @@ export default {
 
 
 <style scoped>
-
+body{display:flex;align-items: center; justify-content: center;}
 </style>

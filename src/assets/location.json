@@ -33,7 +33,7 @@
             ]
           },
           {
-            "name": "Kirant",
+            "name": "Khotang",
             "localGovernments": [
               "Khadbari Municipality",
               "Phidim Municipality"
@@ -46,15 +46,79 @@
               "Morang Rural Municipality"
             ]
           },
+
+
+          {
+            "name": "Okheldhunga",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+
+          {
+            "name": "Panchthar",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+
+          {
+            "name": "Sankkhuwasabha",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+
+          {
+            "name": "Solukhumbu",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+
           {
             "name": "Sunsari",
             "localGovernments": [
               "Inaruwa Municipality",
               "Sunsari Rural Municipality"
             ]
+          },
+
+          {
+            "name": "Taplejung",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+
+          {
+            "name": "Tehrathum",
+            "localGovernments": [
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "Udayapur",
+            "localGovernments": [
+              "",
+              ""
+            ]
           }
+
+
+
+          
         ]
       },
+
+      
+
       {
         "name": "Madesh",
         "districts": [

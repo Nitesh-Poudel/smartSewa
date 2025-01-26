@@ -1,10 +1,43 @@
+
+
+
+.container-child{
+
+  
+  border-radius: 4px;
+  }
+
+.auth-form{
+  background: url('../assets/images/authBackground.jpeg');
+  border:1px solid rgb(197, 195, 195);
+  padding:50px 10px;
+  min-width:600px ;  
+  border-radius: 0px 8px 8px 0px ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-message{
+  width:600px!important; 
+  border-radius: 8px 0px 0px 8px ;
+  background: url('../assets/images/authMessage.jpeg');
+  /* background: url('https://www.pinterest.com/pin/664140276330817429/'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.auth-message h3{font-size: 40px; font-weight: 700;font-family: arial;}
+.auth-form button{margin:5px}
 .form-container {
-    width: 100%;
+    /* width: 100%; */
     max-width: 400px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background-color: #f7f7f7;
     padding: 30px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

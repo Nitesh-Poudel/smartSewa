@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'; // Import Vue Route
 import LoginComponent from '../components/loginComponent.vue'; // Import the Login Component
 import SigninComponent from '../components/signinComponent.vue'; // Import the Signin Component
 import ForgetPasswordComponent from '../components/forgetPasswordComponent.vue'; 
+import homeComponent from '../components/homeComponent.vue'; 
+
 
 
 const routes = [
@@ -19,6 +21,12 @@ const routes = [
       path: '/forget-password',   // Define the path for the forgot-password route
       name: 'ForgotPassword',      // Give it a name if needed
       component: ForgetPasswordComponent,  // Correctly use the imported component
+    },
+
+    {
+      path: '/home',   // Define the path for the forgot-password route
+      name: 'home',      // Give it a name if needed
+      component: homeComponent,  // Correctly use the imported component
     },
 
   ];
